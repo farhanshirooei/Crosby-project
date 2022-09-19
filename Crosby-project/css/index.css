@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    font-family: 'MomcakeBold-WyonA';
+}
+
+@font-face {
+    font-family: 'MomcakeBold-WyonA';
+    src: url('../fonts/MomcakeBold-WyonA.otf');
+}
+
+body {
+    background: url('../images/pexels-photo-7814299.jpeg') center/cover fixed;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+    /* background-color: #dbc588; */
+}
+
+.nav-ul {
+    margin-left: 5rem;
+}
+
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-items {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-item a{
+    margin: 0 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.nav-social-link {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    transform: translateY(6rem);   
+}
+
+.title-btn {
+    background: #81807c;
+    padding: 1.5rem 4rem;
+    font-size: 1.5rem;
+    border: none;
+    color: white;
+}
+
+.nav-item a:hover {
+    background-color: #403dc7;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    transition: 0.5s;
+}
+
+.title-btn:hover {
+    opacity: 80%;
+    border: none;
+    transition: 0.5s;
+}
